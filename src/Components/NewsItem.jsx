@@ -1,7 +1,6 @@
 import React from 'react'
 
 const NewsItem = (props) => {
-    console.log("render");
     let { title, description, imageUrl, newsUrl, author, date, info } = props;
     return (
         <div className='ok' my-3="true">
